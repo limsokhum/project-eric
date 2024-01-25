@@ -1,0 +1,952 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Start custom NavitionBar */
+.icon-navigation-responsive {
+  font-size: 1.4rem;
+  color: #ffff;
+}
+
+/* End custom NavitionBar */
+
+/* Start Contact Page Test */
+.left-contact h5 {
+  color: #7b7878;
+}
+
+.left-contact p {
+  color: #7b7878;
+}
+
+.btn-contact {
+  background-color: #4ca8bf;
+  color: #ffff;
+  font-weight: 400;
+}
+
+.btn-contact:hover {
+  background-color: #358ba0;
+  color: #fbc02d;
+  font-weight: 400;
+}
+
+/* end Contact Page Test */
+
+
+/* Start Progress */
+#progress {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #001a2e;
+}
+
+@media screen and (max-width: 996px) {
+  #progress {
+    display: none;
+  }
+}
+
+/* Ent Progress */
+
+/* Start contact Top Bar */
+.contact-topbar {
+  display: flex;
+}
+
+/* Ent contact Top Bar */
+
+/* Start Navigation Bar */
+.lg-sigup {
+  display: flex;
+  align-items: center;
+}
+
+.lg-sigup .button-sl {
+  display: flex;
+  align-items: center;
+}
+
+.line-download {
+  background-color: grey;
+  width: 40%;
+  height: 1px;
+  opacity: 0.5;
+}
+
+.line-directore {
+  background-color: grey;
+  width: 100%;
+  height: 1px;
+  opacity: 0.5;
+}
+
+.navigation-bar ul li a .active {
+  color: #fbc02d;
+  font-weight: 400;
+}
+
+.navigation-bar ul li a {
+  color: #ffff;
+  font-weight: 400;
+}
+
+.navigation-bar ul li a:hover {
+  color: #fbc02d;
+  font-weight: 400;
+}
+
+/* Ent Navigation Bar */
+
+/* Start Slide Show */
+
+.btn_submitJounal {
+  transition: background 300ms;
+  border-radius: 2px;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -3px inset;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn_submitJounal.btn-green {
+  color: white;
+  background: #009688;
+}
+
+.btn_submitJounal.btn-green:hover {
+  background: #00695c;
+}
+
+.btn_submitJounal.btn-yellow {
+  color: black;
+  background: #fdd835;
+}
+
+.btn_submitJounal.btn-yellow:hover {
+  background: #fbc02d;
+}
+
+.btn_submitJounal.btn-small {
+  padding: 3px 7px;
+  font-size: 11px;
+}
+
+.skitter-themes {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.skitter-themes ul li {
+  display: inline-block;
+}
+
+.skitter-themes ul li a {
+  padding: 10px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: 2px solid;
+  margin: 0 5px 10px 5px;
+}
+
+.skitter-themes ul li a.active {
+  color: #999;
+}
+
+.skitter-animations {
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+.skitter-animations h3 {
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+.skitter-animations ul li {
+  display: inline-block;
+}
+
+.skitter-animations ul li a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  border-bottom: 1px solid;
+  margin: 0 5px 10px 5px;
+}
+
+.skitter-animations ul li a.active {
+  color: #999;
+}
+
+@media (max-width: 767px) {
+  .skitter-themes ul li a {
+    margin: 0 2px 5px 2px;
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+
+.skitter-large-box {
+  width: 100%;
+}
+
+.skitter-small-box {
+  max-width: 400px;
+}
+
+.skitter-medium-box {
+  max-width: 500px;
+}
+
+
+
+
+
+
+/* Start Custom Style Button Submit */
+.button_submitJounal button {
+  background-color: #0284a7;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: 1s;
+  color: white;
+}
+
+.button_submitJounal button:hover {
+  box-shadow: 1px 1px 5px #595d5f;
+  color: #fdc101;
+
+}
+
+/* Ent Custom Style Button Submit */
+
+/* Start Customs Style button Submit Journal API */
+.button_smjepi {
+  background-color: #0284a7;
+  font-size: 0.8rem;
+  padding: 1rem 1.8rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: 1s;
+  color: white;
+}
+
+.button_smjepi:hover {
+  background-color: #0284a7;
+  box-shadow: 1px 1px 5px #595d5f;
+  color: #fdc101;
+
+}
+
+/* Ent Customs Style button Submit Journal API */
+
+/* Start Slide Show */
+
+/* Start Slide Swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.card_swiper {
+  width: 18rem;
+}
+
+#swiper_slide {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 996px) {
+  #swiper_slide {
+    display: block;
+  }
+
+  .card_swiper {
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+}
+
+/* Ent Slide Swiper */
+
+
+
+/* Start Bottom Slide */
+.about_decucation {
+  display: flex;
+  justify-content: space-around;
+  background-color: #6c7277;
+}
+
+.about_decucation .detail {
+  margin-left: 1rem;
+}
+
+.about_decucation .education {
+  display: flex;
+  /* align-items: center; */
+}
+
+@media screen and (max-width: 996px) {
+  .about_decucation {
+    display: flex;
+  }
+
+  .about_decucation .detail h6 {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .about_decucation .detail p {
+    font-size: 10px;
+  }
+
+  .about_decucation .education {
+    display: block;
+    /* text-align: center; */
+    text-align: center;
+
+  }
+}
+
+/* Ent Bottom Slide */
+
+/* Start Education, Research, and Innovation Centre */
+.ed-re-in h4 {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 996px) {
+  .ed-re-in h4 {
+    font-size: 16px;
+  }
+
+  .ed-re-in h6 {
+    font-size: 10px;
+  }
+
+  .featured {
+    font-size: 10px;
+  }
+}
+
+/* Ent Education, Research, and Innovation Centre */
+
+/* Start Featured News Events */
+.Featured_News_Events h4 {
+  color: #336666;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.project_publication h4 {
+  color: #336666;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 996px) {
+  .Featured_News_Events h4 {
+    color: #336666;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .project_publication h4 {
+    color: #336666;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
+
+/* Ent Featured News Events */
+
+/* Start Project Publication */
+#project_publication_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 996px) {
+  #project_publication_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+
+}
+
+/* Ent Project Publication */
+
+/* Start Research Centres */
+.research_centre {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 996px) {
+  .research_centre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2rem;
+  }
+
+}
+
+/* Ent Research Centres */
+
+
+
+/* Start Header Article Summary */
+.article-summary {
+  background-image: url('https://cdri.org.kh/storage/images/CDRI%20Slide%20show4_1669003544.png');
+  opacity: 0.7;
+  width: 100%;
+  height: 24rem;
+}
+
+.search {
+  width: 34rem;
+  height: 2.32rem;
+  background-color: #0284a7;
+  border-radius: .3rem;
+  display: flex;
+  align-items: center;
+}
+
+.search .fa-magnifying-glass {
+  font-size: 1.2rem;
+  padding: 0rem .5rem;
+}
+
+@media screen and (max-width: 996px) {
+  .article-summary {
+    background-image: url('https://cdri.org.kh/storage/images/CDRI%20Slide%20show4_1669003544.png');
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 18rem;
+  }
+
+  .article-summary a img {
+    display: none;
+  }
+
+  .search {
+    width: 90%;
+    height: 2.32rem;
+    background-color: #0284a7;
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .search .fa-magnifying-glass {
+    width: 10%;
+    font-size: 1rem;
+    padding: 0rem .5rem;
+  }
+
+  .search-engine h4 {
+    font-size: .8rem;
+  }
+}
+
+.left-nav ul {
+  list-style: none;
+}
+
+.left-nav ul :nth-child(even) {
+  margin: 0.6rem 0rem;
+  background-color: #0284a7;
+  padding: 0.7rem 0rem;
+
+}
+
+.left-nav ul :nth-child(odd) {
+  background-color: #0284a7;
+  padding: 0.7rem 0rem;
+}
+
+.left-nav ul li {
+  transition: 0.1s;
+}
+
+.left-nav ul li a {
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.left-nav ul li:hover {
+  box-shadow: 1px 2px 5px #595d5f;
+}
+
+.left-nav ul li a:hover {
+  color: #fdc101;
+}
+
+.right-nav {
+  background-color: #F6F6F6;
+}
+
+.right-nav a {
+  text-decoration: none;
+  color: #444;
+}
+
+.right-nav .card {
+  transition: 0.7s;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card-title {
+  color: #0284a7;
+}
+
+.right-nav .card:hover {
+  box-shadow: 1px 1px 10px 1PX #C6C6C6;
+  cursor: pointer;
+}
+
+.preview-download .download-view {
+  margin-left: 2rem;
+}
+
+.card img {
+  width: 100%;
+  height: 12rem;
+  position: center;
+  background-size: cover;
+}
+
+/* Ent Header Article Summary */
+
+
+
+/* Start Arcticle Page  */
+.arcticle-text-khmer {
+  font-family: 'Noto Sans Khmer', sans-serif;
+}
+
+/* Ent Article page */
+
+/* Start journal EPI Page */
+.nav-volume ul {
+  display: flex;
+}
+
+.nav-volume ul li {
+  list-style: none;
+  padding: 12px 0px;
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+}
+
+.nav-volume ul li a {
+  padding: 0rem 2rem;
+  height: 100%;
+  color: black;
+}
+
+/* Ent journal EPI Page */
+
+/* Start Journal Introduction Page */
+.title-intruction {
+  background-color: #D5D8DC;
+  padding: 0.8rem 0.5rem;
+}
+
+/* Ent Journal Introduction Page */
+
+
+/* Start Bottom Bar */
+.title-footer h6 {
+  font-size: 1rem;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 996px) {
+  .bottom-nav {
+    display: block;
+  }
+
+  .important-links {
+    margin-top: 1rem;
+  }
+
+}
+
+/* Ent Bottom Bar */
+
+/* START CREATE RESPONSIVE WEBSITE */
+/* Start Top Navigation Bar */
+/* start max-width: 994px */
+
+@media screen and (max-width: 994px) {
+  .contact .fa-phone-volume {
+    font-size: 0.1rem;
+  }
+
+  .contact .contact-email {
+    font-size: 0.1rem;
+  }
+
+  .contact .contact-phone {
+    font-size: 0.8rem;
+  }
+
+  .contact .contact-email {
+    font-size: 0.8rem;
+  }
+
+  .lg-sigup img {
+    width: 1.5rem;
+  }
+
+  .button-sl .btn {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .wrapper-nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    text-align: start;
+    top: 8rem;
+    left: 0;
+    z-index: 2;
+    display: none;
+    padding-top: 5rem;
+  }
+
+  .wrapper-nav ul li a {
+    font-weight: 500;
+    color: black;
+    line-height: 3rem;
+  }
+
+  .wrapper-nav ul li a:hover {
+    color: #fdc101;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  .wrapper-nav {
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+  }
+
+  .dropdown-content-1 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    text-align: start;
+    top: 8rem;
+    left: 0;
+    z-index: 2;
+    display: none;
+    padding-top: 5rem;
+  }
+
+  .dropdown:hover .dropdown-content-1 {
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content-2 {
+    display: block;
+  }
+
+  .education .fa-graduation-cap {
+    font-size: 1.8rem;
+  }
+
+  .education .fa-searchengin {
+    font-size: 1.8rem;
+  }
+
+  .education .fa-lightbulb {
+    font-size: 1.8rem;
+  }
+
+  .education h5 {
+    font-size: 1.2rem;
+  }
+
+  .education h6 {
+    font-size: 1rem;
+  }
+
+  .swiper .swiper-button-next {
+    display: none;
+  }
+
+  .swiper .swiper-button-prev {
+    display: none;
+  }
+
+  /* Start Custome Footer */
+
+  .more-link h5 {
+    font-size: 1rem;
+  }
+
+  .about-us h5 {
+    font-size: 1rem;
+  }
+
+  .important-links h5 {
+    font-size: 1rem;
+  }
+
+  /* Ent Custome Footer */
+}
+
+/* ent max-width: 994px */
+
+/* Start max-width: 765*/
+@media screen and (max-width: 765px) {
+  .contact-topbar {
+    display: block;
+  }
+
+  .contact-topbar .contact-phone {
+    margin: .5rem;
+  }
+
+
+}
+
+/* Ent max-width: 765 */
+/* Start max-width: 765*/
+@media screen and (max-width: 557px) {
+  .lg-sigup {
+    display: flex;
+  }
+
+  .contact-topbar {
+    display: none;
+  }
+
+}
+
+/* Ent max-width: 765 */
+/* Ent Top Navigation Bar */
+/* ENT CREATE RESPONSIVE WEBSITE */
+
+#multi-step-form-container {
+  margin-top: 5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-none {
+  display: none;
+}
+
+.font-normal {
+  font-weight: normal;
+}
+
+ul.form-stepper {
+  counter-reset: section;
+  margin-bottom: 3rem;
+}
+
+ul.form-stepper .form-stepper-circle {
+  position: relative;
+}
+
+ul.form-stepper .form-stepper-circle span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.content-form-submit-journal {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 2rem 1rem;
+  background-color: #ffff;
+}
+
+.form-stepper-horizontal {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+ul.form-stepper>li:not(:last-of-type) {
+  margin-bottom: 0.625rem;
+  -webkit-transition: margin-bottom 0.4s;
+  -o-transition: margin-bottom 0.4s;
+  transition: margin-bottom 0.4s;
+}
+
+.form-stepper-horizontal>li:not(:last-of-type) {
+  margin-bottom: 0 !important;
+}
+
+.form-stepper-horizontal li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.form-stepper-horizontal li:not(:last-child):after {
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 1px;
+  content: "";
+  top: 32%;
+}
+
+.form-stepper-horizontal li:after {
+  background-color: #dee2e6;
+}
+
+.form-stepper-horizontal li.form-stepper-completed:after {
+  background-color: #4da3ff;
+}
+
+.form-stepper-horizontal li:last-child {
+  flex: unset;
+}
+
+ul.form-stepper li a .form-stepper-circle {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 0;
+  line-height: 1.7rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.38);
+  border-radius: 50%;
+}
+
+.form-stepper .form-stepper-active .form-stepper-circle {
+  background-color: #4361ee !important;
+  color: #fff;
+}
+
+.form-stepper .form-stepper-active .label {
+  color: #4361ee !important;
+}
+
+.form-stepper .form-stepper-active .form-stepper-circle:hover {
+  background-color: #4361ee !important;
+  color: #fff !important;
+}
+
+.form-stepper .form-stepper-unfinished .form-stepper-circle {
+  background-color: #f8f7ff;
+}
+
+.form-stepper .form-stepper-completed .form-stepper-circle {
+  background-color: #0e9594 !important;
+  color: #fff;
+}
+
+.form-stepper .form-stepper-completed .label {
+  color: #0e9594 !important;
+}
+
+.form-stepper .form-stepper-completed .form-stepper-circle:hover {
+  background-color: #0e9594 !important;
+  color: #fff !important;
+}
+
+.form-stepper .form-stepper-active span.text-muted {
+  color: #fff !important;
+}
+
+.form-stepper .form-stepper-completed span.text-muted {
+  color: #fff !important;
+}
+
+.form-stepper .label {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.form-stepper a {
+  cursor: default;
+}
